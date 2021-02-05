@@ -1,4 +1,4 @@
-package com.example.foody
+package com.example.foody.viewmodels
 
 import android.app.Application
 import android.content.Context
@@ -14,7 +14,6 @@ import com.example.foody.util.NetworkResult
 import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.lang.Exception
-import java.time.temporal.TemporalQueries
 
 class MainViewModel @ViewModelInject constructor(
     private val repository: Repository,
