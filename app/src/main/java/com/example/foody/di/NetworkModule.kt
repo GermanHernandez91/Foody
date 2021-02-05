@@ -1,7 +1,7 @@
 package com.example.foody.di
 
-import com.example.foody.Constants.Companion.BASE_URL
-import com.example.foody.FoodRecipesApi
+import com.example.foody.util.Constants.Companion.BASE_URL
+import com.example.foody.data.network.FoodRecipesApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -9,7 +9,6 @@ import dagger.hilt.android.components.ApplicationComponent
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
