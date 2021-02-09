@@ -24,11 +24,9 @@
     <string name="gluten_free">Gluten Free</string>
     <string name="ketogenic">Ketogenic</string>
     <string name="vegetarian">Vegetarian</string>
-    <string name="vegan">Vegan</string>
     <string name="pescetarian">Pescetarian</string>
     <string name="paleo">Paleo</string>
     <string name="primal">Primal</string>
     <string name="whole30">Whole30</string>
-    <string name="bread">Bread</string>
     <string name="apply">Apply</string>
 </resources>
